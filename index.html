@@ -1,1 +1,52 @@
-test
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>The HTML5 Herald</title>
+  <meta name="description" content="Blackpet">
+
+  <style>
+    html,body {
+      width: 100%;
+      height: 100%;
+      padding:0;
+      margin:0;
+    }
+
+    .container {
+      width: 100%;
+      height: 100%;
+      background: #EEE;
+      min-height: 250px;
+      position: relative;
+    }
+
+    img {
+      max-height: 100%;
+      max-width: 100%;
+      height: auto;
+      width: auto;
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      box-sizing: border-box;
+      margin: auto;
+    }
+  </style>
+
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+<div class="container">
+  <img src="/logo.svg"/>
+</div>
+</body>
+</html>
